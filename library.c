@@ -79,4 +79,12 @@ tprNo *removerNo(tprNo *raiz, int dado) {
     }
 }
 
+int calcularAltura(tprNo *raiz) {
+    if (raiz == NULL) return 0;
+
+    int alturaEsquerda = calcularAltura(raiz->left);
+    int alturaDireita = calcularAltura(raiz->right);
+
+    return 1 + (alturaEsquerda > alturaDireita ? alturaEsquerda : alturaDireita);
+}
 
