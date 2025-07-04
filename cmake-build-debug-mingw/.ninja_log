@@ -1,0 +1,4 @@
+# ninja log v6
+10	173	7732939455755766	CMakeFiles/BinaryTree.dir/library.c.obj	fa705ef4e75372c3
+22	177	7732939455865768	CMakeFiles/BinaryTree.dir/main.c.obj	c3ea107199507421
+177	304	7732939457415875	libBinaryTree.a	88194538e4f3c87a
